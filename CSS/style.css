@@ -1,0 +1,135 @@
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gaegu'
+}
+
+header{
+    background-color: white;
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: darkred;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 0.06;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3{
+    line-height: 0.01;
+    color: darkred;
+}
+
+img {
+    width:100%;
+    height: auto;
+  }
+
+.home-item > img {
+    width: 100%;  
+    height: auto;
+    margin-top: auto;
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.home-item {
+    text-align: center;
+    position: relative;
+}
+
+.protein-image {
+    text-align: center;
+    position: static;
+}
+
+.rice-content {
+    text-align: left;
+    padding-bottom: 100px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.items {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.item {
+    width: 100%;  
+    height: auto;
+    margin-top: auto;
+}
+
+.builder-item {
+    width: 70%;  
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300px;
+    color: darkred;
+  }
+
+.grid-container {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+    text-align: center;
+    line-height: 10px;
+    color: darkred;
+}
+
+/* unvisited link */
+a:link {
+    color: darkred;
+  }
+
+  /* visited link */
+a:visited {
+    color: black;
+  }
+
+.builder-enjoy {
+    text-align: center;
+}
+
+
+  
